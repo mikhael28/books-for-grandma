@@ -1,0 +1,10 @@
+{
+    "name": "books-for-grandma-api",
+    "version": "1.0.0",
+    "description": "Scraping Russian books for grandma to read!",
+    "author": "",
+    "devDependencies": {
+      "serverless-python-requirements": "^5.1.0",
+      "serverless-wsgi": "^1.7.6"
+    }
+  }
