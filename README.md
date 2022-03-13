@@ -3,6 +3,8 @@ A simplified app &amp; api for grandma to read Russian books online, without wei
 
 My grandma was reading books on this website that were serving her hideous ads, featuring stuff about the war in Ukraine, weird dietary weight loss supplements, celebrity gossip - I wanted to create a simple and peaceful reading experience for her. So, I scraped the site & created a chill, dark-mode enabled experience for her. 
 
+Front-end using some new-fangled React framework called Remix that I wanted to play around with, back-end serverless Python with Flask and Beauitful Soup. Deployed on Vercel - my first time using them, and wow I am impressed.
+
 Check the deployment link on the right to see the MVP - took about 4 hours in total to cobble together front-end and back-end.
 
 This is why I love coding - because you can create experiences to make the lives of your friends, family and community better with technology.
