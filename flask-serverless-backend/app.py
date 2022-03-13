@@ -1,13 +1,17 @@
 from flask import Flask, jsonify, make_response
 import requests
 from bs4 import BeautifulSoup
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
+# 92460
 
-
-@app.route("/")
-def hello_from_root():
-    URL = "http://loveread.ec/read_book.php?id=92460&p=1"
+@app.route("/<int:book>/<int:page>")
+def hello_from_root(book, page):
+    print(book)
+    print(page)
+    URL = f"http://loveread.ec/read_book.php?id={book}&p={page}"
     page = requests.get(URL)
     soup = BeautifulSoup(page.content, 'html.parser')
     results = soup.find("div", class_="MsoNormal")
