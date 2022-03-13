@@ -4,7 +4,7 @@ import { useState, useEffect, createRef } from 'react';
 export default function IndexRoute() {
   const [, setTheme] = useTheme();
   const [page, setPage] = useState<number>(1);
-  const [book, setBook] = useState<number>(92460);
+  const [book, setBook] = useState<number>(80965);
   const [sentences, setSentences] = useState([]);
   const [pageOptions, setPageOptions] = useState<any>([]);
 

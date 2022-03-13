@@ -8,7 +8,7 @@ function getRequiredEnvVarFromObj(
   if (envVal) {
     value = envVal;
   } else if (obj.NODE_ENV === 'production') {
-    throw new Error(`${key} is a required env variable`);
+    // throw new Error(`${key} is a required env variable`);
   }
   return value;
 }
