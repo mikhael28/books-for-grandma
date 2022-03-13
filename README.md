@@ -1,7 +1,12 @@
 # books-for-grandma
 A simplified app &amp; api for grandma to read Russian books online, without weird advertisements
 
+Endpoints
+ANY - https://dzksh6taq5.execute-api.us-east-1.amazonaws.com/dev/
+ANY - https://dzksh6taq5.execute-api.us-east-1.amazonaws.com/dev/{proxy+}
+
 <!-- Can update Flask to a newer version, but this works right now. -->
+https://www.serverless.com/plugins/serverless-wsgi
 <!--
 title: 'Serverless Framework Python Flask API on AWS'
 description: 'This template demonstrates how to develop and deploy a simple Python Flask API running on AWS Lambda using the traditional Serverless Framework.'
